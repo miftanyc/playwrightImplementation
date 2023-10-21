@@ -1,0 +1,93 @@
+CSS selector or by comma seperated
+	"span:has-text('Login'),  span:has-text('LogIn'),  span:has-text('SignUp'),  span:has-text('Signup')"
+	
+
+
+	
+XPath selector or by | operator
+	"//span[text()='Login'] | //span[text()='LogIn'] | //span[text()='SignUp'] | //span[text()='Signup']"
+
+
+
+	
+	
+css Selector Example:
+	div#account-login h2:has-text('New Customer')
+	input#input-email				// Here # is ID
+	select#Form_getForm_Country option  // Here select is tagname and # is ID
+	form#form-login button:has-text('Login')
+	frame[name='main']
+	book-app[apptitle='BOOKS'] input#input
+	book-app[apptitle='BOOKS'] div.books-desc  //Here . is Class
+	select#Form_getForm_Country:has(option[value='Afghanistan'])   
+	a:text('Login')
+				
+	
+	
+	
+	
+	
+Xpath Selector Example:
+	//a[text()='Components']
+	//h2[text()='Title bar']
+	//iframe[contains(@id,frame-one)]
+	
+	
+	
+	
+	
+Text Selector Example 
+	text=Components
+	a:has-text('Amazon')
+	a:visible					//Visible Element
+	//img >> visible=true		//Visible Element
+	
+	
+	
+	
+	
+Selecting a element using PseudoElement [Parent element selected using Child Parent Relationship]
+	select#Form_getForm_Country:has(option[value='Afghanistan'])
+	div.navFooterLinkCol :has-text('Careers')
+	
+	
+	
+Selecting Elemenet using right-of, left-of, above, below, near
+	input[type='checkbox']:left-of(a:text('Joe.Root'))")).first();
+	td:right-of(a:text('Joe.Root'))").first();
+	a:above(a:text('Joe.Root'))").first();
+	a:below(a:text('Joe.Root'))").first();
+	td:near(a:text('Joe.Root'), 120).allTextContents();   //here all elementeS located near 120 pixel of orignal element
+	
+	
+	
+Selecting Element of nth
+		nth=0  	is First Element
+		nth=-1 	is Last Element
+		nth=1 	is Second Element
+	i.e
+	div.pr-4 li a >> nth=0
+	div.pr-4 li a >> nth=-1
+	div.pr-4 li a >> nth=1
+	
+	
+	
+
+Locator for React based WebApplication
+	_react=reactComponant[attributeKey='attributeValue']	
+			i.e. _react=p[name='email']
+					here p is reactComponant
+					name= is Attribute Key
+					email is Atrribute Value
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	

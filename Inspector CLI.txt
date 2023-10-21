@@ -1,0 +1,16 @@
+Inspector Command:
+
+mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://tutorialsninja.com/demo/"
+
+
+
+mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://selectorshub.com/xpath-practice-page/"
+
+
+
+
+Instruction:
+	Go to the Page Directory of Project
+	write CMD on Address bar of Project Directory
+	Paste the above command in command line.
+	You can change the WebAddress of Interest from The Above command Line for your desire webaddress

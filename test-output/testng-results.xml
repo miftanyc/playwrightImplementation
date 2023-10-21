@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-21T03:01:07 EDT" name="Default suite" finished-at="2023-10-21T03:01:21 EDT" duration-ms="14547">
+    <groups>
+    </groups>
+    <test started-at="2023-10-21T03:01:07 EDT" name="Default test" finished-at="2023-10-21T03:01:21 EDT" duration-ms="14547">
+      <class name="APICall.ApiGetCall">
+        <test-method is-config="true" signature="initializeAPIConncetion()[pri:0, instance:APICall.ApiGetCall@4466af20]" started-at="2023-10-21T03:01:07 EDT" name="initializeAPIConncetion" finished-at="2023-10-21T03:01:14 EDT" duration-ms="7075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAPIConncetion -->
+        <test-method signature="getUsers()[pri:1, instance:APICall.ApiGetCall@4466af20]" started-at="2023-10-21T03:01:14 EDT" name="getUsers" finished-at="2023-10-21T03:01:16 EDT" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method signature="getAUserWithQuaryParam()[pri:2, instance:APICall.ApiGetCall@4466af20]" started-at="2023-10-21T03:01:16 EDT" name="getAUserWithQuaryParam" finished-at="2023-10-21T03:01:18 EDT" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAUserWithQuaryParam -->
+        <test-method signature="headersMapVsHeadersArray()[pri:3, instance:APICall.ApiGetCall@4466af20]" started-at="2023-10-21T03:01:18 EDT" name="headersMapVsHeadersArray" finished-at="2023-10-21T03:01:21 EDT" duration-ms="2875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headersMapVsHeadersArray -->
+        <test-method is-config="true" signature="disposeAPIConnection()[pri:0, instance:APICall.ApiGetCall@4466af20]" started-at="2023-10-21T03:01:21 EDT" name="disposeAPIConnection" finished-at="2023-10-21T03:01:21 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disposeAPIConnection -->
+      </class> <!-- APICall.ApiGetCall -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
